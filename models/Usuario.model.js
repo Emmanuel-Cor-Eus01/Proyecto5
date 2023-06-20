@@ -19,4 +19,4 @@ const usersSchema = Schema({
     }
 }, {versionKey: false} );
 
-module.exports = model ('Usuarios', usersSchema);
+module.exports = model ('usuarios', usersSchema);

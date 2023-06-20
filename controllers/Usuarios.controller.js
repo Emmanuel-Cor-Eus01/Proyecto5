@@ -3,7 +3,7 @@ const Usuario = require('../models/Usuario.model');
 const { hashPass, comparePass, generateToken, validToken } = require('../utilities/auth.utilities');
 const { hash } = require('bcrypt');
 const usuariosGet = (req = request, res = response)=>{
-    res.send("Entro a usuarios get de controller")
+    res.send("Entro a usuarios get de controller del proyecto 5")
 }
 const signUp = async (req = request, res = response)=>{
     try {

@@ -2,7 +2,7 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
 const hashPass = async (password)=>{
-    const saltRounds = 30;
+    const saltRounds = 10;
     return await bcrypt.hash(password, saltRounds);
 }
 

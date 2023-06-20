@@ -3,9 +3,9 @@ const router = Router();
 
 const {usuariosGet, signUp, logIn, validarTokenPost} = require('../controllers/Usuarios.controller')
 
-router.get("/Usuarios", usuariosGet);
-router.post("/Signup", signUp);
-router.post("/Login", logIn);
+router.get("/usuarios", usuariosGet);
+router.post("/signup", signUp);
+router.post("/login", logIn);
 router.post("/validar_token", validarTokenPost);
 
 module.exports = router;
